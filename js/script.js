@@ -17,5 +17,15 @@ function renderPopup() {
     popup.appendChild(menu);
 }
 
+document.addEventListener('click', outsideEvtListener);
+
+function outsideEvtListener(evt) {
+    if (evt.target === popup || popup.contains(evt.target)) {
+        popup.classList.toggle("open");
+        hamb.classList.toggle("active")
+        body.classList.toggle("noscroll")
+    }
+}
+
 
 

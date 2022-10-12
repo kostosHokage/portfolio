@@ -4,6 +4,12 @@
   max-width: 100%;
   background-color: black;
   margin-bottom: 20px;
+  position: sticky;
+}
+
+.header-header {
+  position: sticky;
+  top: 0;
 }
 
 .header-container {
@@ -78,14 +84,12 @@
   font-weight: lighter;
   padding-bottom: 10px;
 }
-.about_block-first_text-header b {
-  color: blue;
-}
 .about_block-first_text-content {
   font-size: 16px;
   font-family: "Lato", sans-serif;
   line-height: 1.5;
   font-weight: lighter;
+  width: 90%;
 }
 .about_block-first_contact {
   display: block;

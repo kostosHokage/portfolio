@@ -4,6 +4,12 @@
   max-width: 100%;
   background-color: black;
   margin-bottom: 20px;
+  position: sticky;
+}
+
+.header-header {
+  position: sticky;
+  top: 0;
 }
 .header-container {
   max-width: 1200px;
@@ -78,16 +84,13 @@
         font-family: 'Lato', sans-serif;
         font-weight: lighter;
         padding-bottom: 10px;
-
-        b {
-          color: blue;
-        }
       }
       &-content {
         font-size: 16px;
         font-family: 'Lato', sans-serif;
         line-height: 1.5;
         font-weight: lighter;
+        width: 90%;
       }
     }
 
