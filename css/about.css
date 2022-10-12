@@ -40,6 +40,11 @@
   text-decoration: none;
   color: white;
 }
+.header-items nav a:hover {
+  color: #5db6ea;
+  transition: all 0.3s;
+  border-bottom: 2px solid #5db6ea;
+}
 
 .container {
   max-width: 1200px;
@@ -70,7 +75,7 @@
 .about_block-first_text-header {
   font-size: 36px;
   font-family: "Lato", sans-serif;
-  font-weight: 400;
+  font-weight: lighter;
   padding-bottom: 10px;
 }
 .about_block-first_text-header b {
@@ -80,6 +85,7 @@
   font-size: 16px;
   font-family: "Lato", sans-serif;
   line-height: 1.5;
+  font-weight: lighter;
 }
 .about_block-first_contact {
   display: block;
@@ -170,7 +176,7 @@
 .block-name_header {
   font-size: 30px;
   font-family: "Lato", sans-serif;
-  font-weight: 700;
+  font-weight: lighter;
   padding-bottom: 10px;
 }
 .block-name_content {
@@ -226,6 +232,11 @@
 .experience-block {
   width: 70%;
 }
+@media (max-width: 690px) {
+  .experience-block {
+    width: 100%;
+  }
+}
 .experience-block_item {
   display: flex;
   flex-direction: column;
@@ -237,6 +248,13 @@
   display: flex;
   align-items: center;
   font-weight: lighter;
+}
+@media (max-width: 690px) {
+  .experience-block_item-header {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
 }
 .experience-block_item-header span {
   padding: 0 10px 0 0;
