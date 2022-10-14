@@ -3,6 +3,12 @@ let popup = document.querySelector('.popup')
 let menu = document.querySelector('.menu').cloneNode('1');
 let body = document.body
 
+let slideIndex =  1;
+
+
+
+// -----BURGER----- //
+
 hamb.addEventListener('click', hambHandler);
 
 function hambHandler(e) {
@@ -27,5 +33,14 @@ function outsideEvtListener(evt) {
     }
 }
 
+
+// ----------END BURGER----------- //
+
+let images = document.querySelectorAll('.slider-line img');
+let sliderLine = document.querySelector('.slider-line');
+let next = document.querySelector('.next');
+let prev = document.querySelector('.prev');
+let count = 0;
+let width;
 
 

@@ -10,7 +10,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "sass": "^1.55.0"
+    "sass": "^1.55.0",
+    "swiper": "^8.4.4"
   },
   "devDependencies": {
     "browser-sync": "^2.27.10"
