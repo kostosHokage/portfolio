@@ -361,6 +361,11 @@
   background-color: #eeeeee;
   border-radius: 0 0 30px 30px;
 }
+@media (max-width: 690px) {
+  .swiper {
+    width: 100%;
+  }
+}
 
 .swiper-wrapper {
   margin-bottom: 20px;

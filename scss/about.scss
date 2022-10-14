@@ -385,6 +385,10 @@
   width: 80%;
   background-color: #eeeeee;
   border-radius: 0 0 30px 30px;
+
+  @media(max-width: 690px) {
+    width: 100%;
+  }
 }
 
 .swiper-wrapper  {
